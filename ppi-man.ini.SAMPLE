@@ -1,0 +1,21 @@
+; Full path to file with the list of extensions to consider installed.
+; This is mutually exclusive with "extension_dir".
+; You don't need to edit this. It's only used for debugging the script.
+;
+;extension_file=/tce_installed.txt
+
+; Full path to the directory containing the installed extensions.
+; This is mutually exclusive with "extension_file".
+; Provide without trailing backslash.
+; Example: /mnt/hda1/tclocal/tce.installed.
+;
+;extension_dir=/usr/local/tce_installed
+
+mirror=http://distro.ibiblio.org/pub/linux/distributions/tinycorelinux/3.x/tcz
+
+cache_dir=/tmp/tcecache
+
+; Path to your "tclocal" directory, 
+; Example: /mnt/hda1/tclocal.
+;
+tclocal=/mnt/hda1/tclocal

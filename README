@@ -1,0 +1,10 @@
+First of all: THIS IS AN ALPHA VERSION. DO NOT USE ON PRODUCTION!
+
+ppi-man is a PHP script to manage your Tiny Core Linux (TCL) PPI installation.
+It esentially allows you to uninstall a PPI-compatible extension along
+with its dependencies.
+
+To ensure that your PPI extensions are not being used, you should 
+boot TCL in TCE mode (tce=xyz boot code) before using this script.
+
+You need to edit ppi-man.ini to reflect the location of your "tclocal" directory.
